@@ -1,0 +1,35 @@
+{
+  "name": "wasmparse-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtharrison/wasmparse-web.git"
+  },
+  "author": "Matt Harrison <hi@matt-harrison.com>",
+  "dependencies": {
+    "hapi": "^17.3.1",
+    "inert": "^5.1.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "wasmparse-bridge": "file:../wasmparse-bridge/pkg"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtharrison/wasmparse/issues"
+  },
+  "homepage": "https://github.com/mtharrison/wasmparse#readme"
+}

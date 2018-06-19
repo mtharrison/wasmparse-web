@@ -1,0 +1,48 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.main-container {
+    border: 1px solid black;
+    height: 100%;
+    margin: 20px;
+}
+
+.upload-container {
+    border: 1px solid black;
+    margin: 15px;
+    padding: 5px;
+}
+
+.types-section-container {
+    border: 1px solid black;
+    margin: 15px;
+}
+
+.types-section-container .inner {
+    padding: 15px;
+    margin: 5px 0;
+}
+
+.section-header {
+    background: #333;
+}
+
+.section-header h3 {
+    margin: 0;
+    padding: 5px;
+    color: white;
+}
+
+.section table {
+    text-align: left;
+}
